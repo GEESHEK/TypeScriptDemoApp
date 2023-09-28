@@ -1,0 +1,11 @@
+{
+    "configurations": [{
+        "type": "chrome",
+        "request": "launch",
+        "name": "Open chrome debugger",
+        "url": "http://localhost:7777",
+        "webRoot": "${workspaceFolder}",
+        "sourceMaps": true,
+        "trace": true
+    }]
+}

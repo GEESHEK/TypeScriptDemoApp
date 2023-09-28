@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.9",
+    "@tsconfig/recommended": "^1.0.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^4.2.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "name": "typescriptdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc *v",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "webpack": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
